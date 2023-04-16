@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>grid</title>
+    <link rel="icon" type="image/x-icon" href="./assets/favicon.ico" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+  </head>
+
+  <body>
+    <div style="
+    display:grid;
+    grid-template-columns: 100px 100px 100px;
+    margin-top:30px;
+    ">
+      <div style="background-color:lightblue;">div 1</div>
+      <div style="background-color:lightpink;">div 2</div>
+      <div style="background-color:lightblue;">div 3</div>
+    </div>
+
+    <div style="
+    display:grid;
+    margin-top:30px;
+    grid-template-columns: 100px 1fr; 
+    ">
+      <div style="background-color:lightblue;">100px</div>
+      <div style="background-color:lightpink;">1 fr</div>
+    </div>
+
+    <div style="
+    display:grid;
+    margin-top:30px;
+    height:200px;
+    grid-template-columns: 1fr 1fr 1fr; 
+    ">
+      <div style="background-color:lightblue;">1 fr</div>
+      <div style="background-color:lightpink;">1 fr</div>
+      <div style="background-color:lightblue;">1 fr</div>
+    </div>
+
+    <div style="
+    display:grid;
+    height:200px;
+    margin-top:30px;
+    padding-bottom:1000px;
+    column-gap:15px;
+    row-gap:30px;
+    grid-template-columns: 1fr 1fr 1fr; 
+    ">
+      <div style="background-color:lightblue;">1 fr</div>
+      <div style="background-color:lightpink;">1 fr</div>
+      <div style="background-color:lightblue;">1 fr</div>
+      <div style="background-color:lightpink;">1 fr</div>
+      <div style="background-color:lightblue;">1 fr</div>
+      <div style="background-color:lightpink;">1 fr</div>
+    
+    </div>
+
+  </body>
+</html>
